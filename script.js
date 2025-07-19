@@ -12,21 +12,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const skillsBtn = document.getElementById("skills-btn");
 
   // 🔹 Light & Dark Theme logolari
-  const lightLogos = {
-    github: "assets/github_light.png",
-    linkedin: "assets/linkedin_light.png",
-    email: "assets/email_light.png",
-    theme: "assets/theme_light.png",
-    profile: "assets/IMG_1194.PNG", // Yorug' tema rasmi
-  };
+const lightLogos = {
+  github: "github_light.png",
+  linkedin: "linkedin_light.png",
+  email: "email_light.png",
+  theme: "theme_light.png",
+  profile: "IMG_1194.PNG",
+};
 
-  const darkLogos = {
-    github: "assets/github_dark.png",
-    linkedin: "assets/linkedin_dark.png",
-    email: "assets/email_dark.png",
-    theme: "assets/theme_dark.png",
-    profile: "assets/IMG_1170.PNG", // Qorong'u tema rasmi
-  };
+const darkLogos = {
+  github: "github_dark.png",
+  linkedin: "linkedin_dark.png",
+  email: "email_dark.png",
+  theme: "theme_dark.png",
+  profile: "IMG_1170.PNG",
+};
+
 
   // 🔹 Theme sozlash funksiyasi
   function setTheme(isDark) {
