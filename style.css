@@ -415,18 +415,6 @@ footer {
 .social-wrapper a:hover {
   text-decoration: underline;
 }
-.skills-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.beginner-block,
-.pro-block {
-  flex: 1 1 300px;
-  max-width: 400px;
-}
 
 @media screen and (min-width: 900px) {
   .skills,
